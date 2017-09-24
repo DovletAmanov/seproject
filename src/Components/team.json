@@ -1,0 +1,28 @@
+{
+"members" :[
+    {
+        "id" : 1,
+        "name" : "Anton Olhovskiy",
+        "title" : "Backend Developer",
+        "imageUrl" : ""
+    },
+    {
+        "id" : 2,
+        "name" : "Belemir Çilingir",
+        "title" : "Mobile Developer",
+        "imageUrl" : ""
+    },
+    {
+        "id" : 3,
+        "name" : "Natig Kurbanov",
+        "title" : "Database Architect",
+        "imageUrl" : ""
+    },
+    {
+        "id" : 4,
+        "name" : "Dovlet Amanov",
+        "title" : "Frontend Developer",
+        "imageUrl" : ""
+        }
+]
+}
