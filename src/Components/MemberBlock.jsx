@@ -77,6 +77,41 @@ class MemberBlock extends Component{
         </div>
       </div>
     </section>
+    <section>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-6 order-2">
+            <div className="p-5">
+              <img className="img-fluid rounded-circle" src="images/hande.png" alt=""/>
+            </div>
+          </div>
+          <div className="col-md-6 order-1">
+            <div className="p-5">
+              <h2 className="display-4">Hande Nur Birsen</h2>
+              <h3>Web Developer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <div className="p-5">
+              <img className="img-fluid rounded-circle" src="images/baran.png" alt=""/>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="p-5">
+              <h2 className="display-4">Baran Teloğlu</h2>
+              <h3>Web Developer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
             </div>
         )
     }
