@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Homepage from './Homepage';
 import ProjectPage from './ProjectPage';
+import AdminPanel from './AdminPanel';
+import BeaconProps from './BeaconProps';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class Header extends Component{
@@ -23,6 +25,16 @@ class Header extends Component{
                        <Link to="/projectpage" className="nav-link active">About Project</Link>
                      </a>
                    </li>
+                   <li className="nav-item active">
+                     <a className="nav-link" >
+                       <Link to="/adminpanel" className="nav-link active">Admin Panel</Link>
+                     </a>
+                   </li>
+                   <li className="nav-item active">
+                     <a className="nav-link" >
+                       <Link to="/nodeconfig" className="nav-link active">NodeConfig</Link>
+                     </a>
+                   </li>
                  </ul>
                </div>
              </div>
@@ -31,6 +43,8 @@ class Header extends Component{
         
            <Route exact path="/" component={Homepage} />  
            <Route path='/projectpage' component={ProjectPage} />
+           <Route path='/adminpanel' component={AdminPanel} />
+           <Route path='/nodeconfig' component={BeaconProps} />
     </div>
     </Router>
         )

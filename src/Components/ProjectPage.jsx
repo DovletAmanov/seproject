@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import MemberBlock from './MemberBlock';
 import Footer from './Footer';
 
 const headerBackground = {

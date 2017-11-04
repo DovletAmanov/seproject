@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import teamMembers from './team.json';
+
 
 class MemberBlock extends Component{
 
