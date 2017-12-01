@@ -28,7 +28,7 @@ class Header extends Component{
                    </li>
                    <li className="nav-item active">
                      <a className="nav-link" >
-                       <a href="https://antohinkod.herokuapp.com">Go To Project</a>
+                       <a href="https://antohinkod.herokuapp.com" className="nav-link active">Go To Project</a>
                      </a>
                    </li>
                    <li className="nav-item active">
