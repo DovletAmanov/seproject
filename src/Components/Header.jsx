@@ -6,6 +6,7 @@ import BeaconProps from './BeaconProps';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class Header extends Component{
+  
 
     render(){
         return(
@@ -23,6 +24,11 @@ class Header extends Component{
                    <li className="nav-item active">
                      <a className="nav-link" >
                        <Link to="/projectpage" className="nav-link active">About Project</Link>
+                     </a>
+                   </li>
+                   <li className="nav-item active">
+                     <a className="nav-link" >
+                       <a href="https://antohinkod.herokuapp.com">Go To Project</a>
                      </a>
                    </li>
                    <li className="nav-item active">
