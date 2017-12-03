@@ -28,9 +28,10 @@ class Header extends Component{
                    </li>
                    <li className="nav-item active">
                      <a className="nav-link" >
-                       <a href="https://antohinkod.herokuapp.com" className="nav-link active">Go To Project</a>
+                       <a href="https://dov.herokuapp.com" className="nav-link active">Go To Project</a>
                      </a>
                    </li>
+                   {/*
                    <li className="nav-item active">
                      <a className="nav-link" >
                        <Link to="/adminpanel" className="nav-link active">Admin Panel</Link>
@@ -41,6 +42,7 @@ class Header extends Component{
                        <Link to="/nodeconfig" className="nav-link active">NodeConfig</Link>
                      </a>
                    </li>
+                   */}
                  </ul>
                </div>
              </div>
